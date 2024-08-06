@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicción de Cardiopatía</title>
+</head>
+<body>
+    <h1>Predicción de Cardiopatía</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Predecir</button>
+    </form>
+</body>
+</html>
